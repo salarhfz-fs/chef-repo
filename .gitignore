@@ -3,6 +3,10 @@
 .chef/encrypted_data_bag_secret
 .chef/knife.rb
 .chef/trusted_certs
+.chef/chef_guid
+.chef/local-mode-cache
+.chef/syntaxcache
+nodes
 # Ruby
 .rake_test_cache
 .rvmrc
