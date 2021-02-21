@@ -1,7 +1,11 @@
 package 'apache2'
 
-file '/var/www/html/index.html' do
-  content "<html><head></head><body>Hello World from #{node['hostname']}</body></html>"
+template '/var/www/html/index.html' do
+  source 'apache_index.erb'
+  variables(
+    hostname: node['hostname']
+  )
+  action :create
 end
 
 service 'apache2' do
