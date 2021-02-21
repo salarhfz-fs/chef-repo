@@ -1,0 +1,7 @@
+name 'tree_package'
+maintainer 'Salar hafezi'
+maintainer_email 'salar.hfz@gmail.com'
+license 'All Rights Reserved'
+description 'Installs/Configures tree_package'
+version '0.1.0'
+chef_version '>= 15.0'
